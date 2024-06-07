@@ -154,7 +154,7 @@ emergency requiring immediate intervention.
 conduction system.
 **Heart Block:** A condition where the electrical signals between the atria and ventricles are delayed
 or blocked.
-#### IMAGE
+![Abnormal ECG](Images/AbnormalECG.png)
 
 ***3 lead configuration***
 The 3-lead ECG configuration is a simplified yet effective method for monitoring the heart's
@@ -198,5 +198,5 @@ Subsequently, the Pan-Tompkins algorithm, a robust QRS detection algorithm, is a
 filtered ECG signal. This algorithm accurately identifies the QRS complexes, representing the
 electrical activity associated with ventricular depolarization, and extracts relevant time intervals
 crucial for cardiac assessment.
- #### IMAGE
+![Architecture](Images/Flow.png)
 
