@@ -100,7 +100,7 @@ representation of the electrical activity of the heart over time. It consists of
 and intervals, each of which corresponds to a specific phase of the cardiac cycle. The primary
 components of the ECG waveform are labeled as P, Q, R, S, and T waves.
 
-![ECG Waveform](Images/ECG waveform.png)
+![ECG Waveform](Images/ECGwaveform.png)
 
 **P-Wave**: The P wave is the first positive deflection on the ECG waveform. It represents the
 depolarization (contraction) of the atria, the upper chambers of the heart. The P wave indicates the
