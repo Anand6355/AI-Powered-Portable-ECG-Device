@@ -329,29 +329,13 @@ technique to the raw ECG signals, we successfully mitigated noise artifacts and 
 clarity and reliability of the recorded ECG tracings. This digital filtering approach, featuring a 3rd
 order Butterworth filter, not only enhanced the diagnostic utility of the ECG data but also
 contributed to the overall accuracy and effectiveness of our monitoring system.
-### Pan-Tompkins Algorithm:
-Implemented the Pan-Tompkins algorithm as a crucial component of our ECG signal processing
-pipeline. Developed by Roland W. J. Pan and Tompkins, the Pan-Tompkins algorithm is widely
-recognized for its effectiveness in accurately detecting QRS complexes in ECG signals, which
-represent the depolarization of the ventricles during the cardiac cycle.
+### Algorithm:
 The algorithm operates by first employing a bandpass filter to isolate the QRS complexes from the
 raw ECG signal, effectively removing unwanted noise and artifacts. Subsequently, it utilizes a
 differentiated signal to enhance the sharp transitions characteristic of QRS complexes. Then, a
 squaring operation is applied to amplify the QRS complexes' amplitude, making them more
 distinguishable from background noise.
-Following these preprocessing steps, the Pan-Tompkins algorithm employs a sliding-window
-integration technique to detect the peaks of the QRS complexes. By analyzing the slope and
-amplitude of the integrated signal within a defined window, the algorithm accurately identifies the
-onset, peak, and offset of each QRS complex.
-One of the notable advantages of the Pan-Tompkins algorithm is its adaptability to various ECG
-signal characteristics and noise levels, making it suitable for real-world applications where signal
-quality may vary. Additionally, the algorithm's computational efficiency allows for real-time QRS
-detection, enabling prompt analysis and interpretation of ECG data in clinical settings.
-By integrating the Pan-Tompkins algorithm into our project, we enhanced the accuracy and
-reliability of ECG signal processing, facilitating more precise analysis and diagnosis of cardiac
-abnormalities. This algorithmic approach represents a significant advancement in ECG monitoring
-technology, offering robust performance and practical utility for healthcare professionals and
-researchers alike.
+
 ### Application Interface:
 Integrating a smartphone application into our project offers several significant advantages and
 enhances the overall functionality and usability of our ECG monitoring system.
