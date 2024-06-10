@@ -377,7 +377,7 @@ electrocardiogram (ECG) data from a microcontroller unit (MCU) to a smartphone a
 implementing the Pan-Tompkins algorithm for QRS peak detection. Through meticulous design and
 integration, we established a robust communication link between the MCU and smartphone,
 facilitating the real-time transmission of ECG data for monitoring and analysis.
-By applying the, we effectively detected QRS peaks in the ECG signals,
+By applying the algorithm, we effectively detected QRS peaks in the ECG signals,
 enabling the accurate calculation of various time intervals crucial for cardiac assessment. We
 meticulously validated our results against standard data, ensuring the reliability and accuracy of our
 algorithmic approach.
