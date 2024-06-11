@@ -195,7 +195,7 @@ Upon receiving the ECG data, the smartphone app takes charge of signal processin
 The raw data undergoes digital filtering using a Butterworth filter, designed to suppress noise and
 artifacts while preserving the essential features of the ECG waveform. This filtering step enhances
 the quality and clarity of the ECG signal, preparing it for subsequent analysis.
-Subsequently, the Pan-Tompkins algorithm, a robust QRS detection algorithm, is applied to the
+Subsequently, the algorithm, a robust QRS detection algorithm, is applied to the
 filtered ECG signal. This algorithm accurately identifies the QRS complexes, representing the
 electrical activity associated with ventricular depolarization, and extracts relevant time intervals
 crucial for cardiac assessment.
@@ -372,7 +372,7 @@ Normal BPM= 60-90 bpm
 Hence, this heart rhythm is in the normal range.
 
 ## Conclusion And Future Work
-In conclusion, our project successfully achieved the primary objectives of transferring
+In conclusion, our project successfully achieved the primary objective of transferring
 electrocardiogram (ECG) data from a microcontroller unit (MCU) to a smartphone and
 implementing the Pan-Tompkins algorithm for QRS peak detection. Through meticulous design and
 integration, we established a robust communication link between the MCU and smartphone,
@@ -388,7 +388,7 @@ processing techniques, demonstrates the feasibility and efficacy of our approach
 remote ECG monitoring and analysis.
 ### Future Work
 In future work, Aim to explore several avenues to further enhance the functionality and
-effectiveness of our ECG monitoring system. First plan is to develop an algorithm capable of
+effectiveness of our ECG monitoring system. The first plan is to develop an algorithm capable of
 dynamically adjusting the window length for QRS complex detection based on signal
 characteristics. By leveraging machine learning techniques, such as neural networks or decision
 trees, we can train the algorithm to adaptively modify the window length in response to variations
